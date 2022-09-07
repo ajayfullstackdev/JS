@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  background-color: rgb(49, 57, 66);
+  text-align: center;
+  margin-top: 40px;
+  padding: 5%;
+}
+
+input {
+  height: 30px;
+  width: 30%;
+}
+
+button {
+  padding: 10px;
+  background-color: rgb(37, 27, 239);
+  cursor: pointer;
+  color: white;
+}
+
+div {
+  color: white;
+  margin: 10% 20% 0% 20%;
+  background-color: rgb(198, 109, 179);
+  padding: 1%;
+  display: none;
+}
