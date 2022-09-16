@@ -393,4 +393,81 @@ console.log(tajrestaurant.getThroughWaiter());
 
 <!--------------------------------------------------------->
 
+// You need to use the concept of polymophism. You need to create a parent class 'shape' which returns the area. Create different classes circle,rectangle, sqaure and triangle which extend the parent class shape and calculate the area.
+
+// create  a method allShapes that receives an array of shapes and returns cumulative area value of all passed shapes.
+// You may diplay in HTML or console log your outputs.
+
+class Shape {
+  area() {
+    return 0;
+  }
+
+  allShapes(arrOfArea) {
+    let sum = arrOfArea.reduce((acc, ele) => {
+      acc += ele;
+      return acc;
+    }, 0);
+
+    return sum;
+  }
+}
+
+//Circle
+class Circle extends Shape {
+  constructor(r) {
+    super();
+    this.radius = r;
+  }
+  area() {
+    return this.radius * this.radius * 3.14;
+  }
+}
+
+//Square
+class Square extends Shape {
+  constructor(s) {
+    super();
+    this.side = s;
+  }
+  area() {
+    return this.side ** 2;
+  }
+}
+
+//Rectangle
+class Rectangle extends Shape {
+  constructor(w, h) {
+    super();
+    this.width = w;
+    this.height = h;
+  }
+  area() {
+    return this.width * this.height;
+  }
+}
+
+//Triangle
+class Triangle extends Shape {
+  constructor(b, h) {
+    super();
+    this.base = b;
+    this.height = h;
+  }
+  area() {
+    return (this.base * this.height) / 2;
+  }
+}
+
+// Area of all shape
+let circle = new Circle(5).area();
+let square = new Square(4).area();
+let triangle = new Triangle(2, 3).area();
+let rectangle = new Rectangle(4, 5).area();
+
+let cumulative = new Shape().allShapes([circle, square, triangle, rectangle]);
+
+console.log(cumulative);
+
+
 
