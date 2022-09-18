@@ -1,13 +1,13 @@
 diff bt var and let
-var has functional scope whereas let has local scope
-var will be hoisted whereas let also Hoisted but not initialized
-var is been available from the beginning of JavaScript whereas let Introduced in ES6
+    var has functional scope whereas let has local scope
+    var will be hoisted whereas let also Hoisted but not initialized
+    var is been available from the beginning of JavaScript whereas let Introduced in ES6
 
 what is Scope
-Scope is the current context of the code, which determines the accessibility of variables.
+    Scope is the current context of the code, which determines the accessibility of variables.
 
 what is prototype 
-prototype is an object which associate with all the functions and objects in JavaScript by default.
+    prototype is an object which associate with all the functions and objects in JavaScript by default.
 
 what is prototype chain 
 whenever we are going to create an object , that object associate with the JavaScript default Object (that is prototype) , this is the prototype chain.
