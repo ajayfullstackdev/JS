@@ -50,4 +50,10 @@ console.log("Obj1",obj);
 
 https://gist.github.com/shubhamdixit863/f9aca19c683f90e39a7cc9105f2aa030
 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
+
+https://lodash.com/
+
+https://lodash.com/docs/4.17.15#cloneDeep
+
 
