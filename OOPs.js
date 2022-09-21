@@ -472,3 +472,43 @@ console.log(cumulative);
 
 
 
+<!-------------------------------------------------------------->
+
+
+// JavaScript Encapsulation Example
+
+// Let's see a simple example of encapsulation that contains two data members with its setter and getter methods.
+
+// Encapsulation is the process to, binding the data (i.e. variables) with the functions acting on that data. 
+
+// Use var or let or const keyword to make data members private.
+// Use setter methods to set the data and getter methods to get that data.
+
+class Student {
+  constructor() {
+    let name;
+    let marks;
+  }
+  getName() {
+    return this.name;
+  }
+  setName(name) {
+    this.name = name;
+  }
+
+  getMarks() {
+    return this.marks;
+  }
+  setMarks(marks) {
+    this.marks = marks;
+  }
+
+}
+
+let stud = new Student();
+stud.setName("John");
+stud.setMarks(80);
+console.log(stud.getName() + " " + stud.getMarks());
+
+
+
