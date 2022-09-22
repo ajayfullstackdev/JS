@@ -78,3 +78,10 @@ document.getElementById('button').addEventListener('click', function () {
   findItemsFromArray(id);
 });
 
+
+<!------------------------------------------------------>
+
+ <input type="text" id="input" />
+
+      <button id="button">Search</button>
+
