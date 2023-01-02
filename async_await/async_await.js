@@ -8,6 +8,11 @@ const checkEven = async (n) => {
   }
 }
 
+let ch = checkEven(4)
+
+console.log(ch)
+
+
 const display = async () => {
 
   try {
