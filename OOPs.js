@@ -1,3 +1,6 @@
+console.log(Object()) // God object (prototype)
+
+
 //Different ways to create an Object --
 
 //Using Object (God Object)  constructor
